@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/load"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@+id/sortlistview"
+            android:cacheColorHint="#0000"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            />
+
+        <RelativeLayout
+            android:fadingEdgeLength="20dp"
+            android:background="@drawable/toolbar_bg"
+            android:layout_width="fill_parent"
+            android:layout_weight="8"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/next_page"
+                android:textColor="#fff"
+                android:layout_height="40dp"
+                android:textSize="20sp"
+                android:background="@drawable/btn_selector"
+                android:text="下一页"
+                android:gravity="fill"
+                android:paddingLeft="10dp"
+                android:layout_width="80dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+            <Button
+                android:id="@+id/pre_page"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_selector"
+                android:gravity="fill"
+                android:text="上一页"
+                android:layout_width="80dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:id="@+id/pagenum"
+                android:layout_width="wrap_content"
+                android:text="第1页"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

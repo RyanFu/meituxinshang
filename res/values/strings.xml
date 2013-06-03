@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">美图欣赏</string>
+    <string name="qingchun">清纯</string>
+    <string name="xiaohua">校花</string>
+    <string name="chemo">车模</string>
+    <string name="qipao">旗袍</string>
+    <string name="mingxing">明星</string>
+    <string name="exit_promt">再看一会？</string>
+    <string name="ok">好的</string>
+    <string name="no">不了</string>
+    <string name="numpage">第%1$d页</string>
+    <string name="loadfail">加载失败</string>
+    <string name="prefs">设置</string>
+    <string name="send">反馈</string>
+    <string name="exit">退出</string>
+    <string name="feedback">美图欣赏问题反馈</string>
+    <string name="activity_not_found">没有邮件客户端</string>
+    <string name="share">分享</string>
+    <string name="savepic">已保存到%1$s文件夹</string>
+    <string name="set_success">设置成功</string>
+    <string name="ads">精彩推荐</string>
+</resources>

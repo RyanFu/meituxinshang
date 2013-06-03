@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+    <shape>
+    <gradient android:startColor="#25B6FF" android:endColor="#61F7FD" android:angle="270"/>
+    <corners android:radius="8dp"/>
+    <stroke android:color="#eee"/>
+    </shape>
+    </item>
+    <item android:state_pressed="false" android:drawable="@drawable/ic_menu_crop"><shape>
+    <gradient android:startColor="#0000" android:endColor="#0000" />
+    <corners android:radius="5dp"/>
+    <stroke android:color="#444" android:width="0.5dp" />
+    </shape></item>
+</selector>

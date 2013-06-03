@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="设置">
+
+        <EditTextPreference
+            android:defaultValue="MeinvXiezhen"
+            android:dialogTitle="文件夹名"
+            android:key="folder"
+            android:negativeButtonText="取消"
+            android:positiveButtonText="确定"
+            android:summary="点击设置图片文件夹"
+            android:title="图片文件夹">
+        </EditTextPreference>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="选择效果"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entriesvalue_list_preference"
+            android:key="anim"
+            android:summary="点击选择切换美女时的动画效果"
+            android:title="切换动画">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="关于">
+
+        <Preference
+            android:summary="zbj543720"
+            android:title="作者">
+        </Preference>
+
+        <Preference
+            android:summary="zbj543720@qq.com"
+            android:title="联系方式">
+        </Preference>
+
+        <Preference
+            android:summary="http://weibo.com/xGeeker"
+            android:title="微博">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
